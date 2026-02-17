@@ -36,6 +36,7 @@ So, to ensure model stability, I implemented: <br>
 **Feature Engineering: Cyclical Encoding** <br>
 To capture the periodic nature of time, I transformed temporal data into Sine and Cosine components.
   * **Logic:** This ensures the model recognizes that hour 23 and hour 0 are mathematically adjacent, preventing "cliffs" in time-series learning. <br>
+
 ![](Images/sin_cos.png) <br>
 
 **Model Architecture** <br>
