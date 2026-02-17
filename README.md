@@ -41,6 +41,7 @@ To capture the periodic nature of time, I transformed temporal data into Sine an
 
 **Model Architecture** <br>
 I built a Stacked Bidirectional LSTM. Processing sequences both forwards and backwards allows the model to capture deep context in pollutant trends. <br>
+
 ![](Images/Modelarc.png) <br>
 
 **Architecture Breakdown:**
@@ -52,7 +53,9 @@ I built a Stacked Bidirectional LSTM. Processing sequences both forwards and bac
 ## 📈 Performance & Results <a name="Results"></a>
 The model was optimized using the **Adam Optimizer** and monitored via **EarlyStopping** to prevent overfitting.
   * **Metric:** Reached a **Root Mean Squared Error (RMSE) of 0.7033**. <br>
+  
   ![](Images/Act_Pre.png) <br>
+  
   * **Outcome:** The model successfully produced the predictive data used for the final spatial GIS visualizations.
 
 | location_id | lat      | lon      | year | month | mean_aqi |
