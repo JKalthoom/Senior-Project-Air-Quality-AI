@@ -19,7 +19,7 @@ I was responsible for the technical execution, including the architecture design
 ## 🛠️ The Technical Pipeline <a name="Pipeline"></a>
 
 **Data Engineering & Integrity** <br>
-The raw dataset consisted of 11.3M+ data points like this: <br>
+The raw dataset consisted of 11.3M+ data points, sample: <br>
 
 | location_id | sensors_id | location | datetime | lat | lon | parameter | units | value | year | month | measured |
 |--------|---------|---------------|---------------------------|----------|----------|------|---------|-----|------|---|---|
